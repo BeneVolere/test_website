@@ -1,18 +1,73 @@
+/* Overall layout and body style */
 body {
-  font-family: sans-serif;
-  padding: 2em;
-  background: #f0f4f8;
+  font-family: 'Segoe UI', sans-serif;
+  background: #e8eef3;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  min-height: 100vh;
+}
+
+/* Container "card" */
+.container {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  margin-top: 4rem;
   max-width: 500px;
-  margin: auto;
+  width: 90%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
-input, button {
-  padding: 0.5em;
-  margin-top: 1em;
+/* Title */
+h2 {
+  margin-bottom: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+/* Labels and inputs */
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #444;
+}
+
+input {
   width: 100%;
+  padding: 0.7rem;
+  margin-top: 0.3rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  box-sizing: border-box;
 }
 
+/* Button */
+button {
+  margin-top: 1.5rem;
+  padding: 0.8rem;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #004d99;
+}
+
+/* Result styling */
 #result {
-  margin-top: 1em;
+  margin-top: 1.5rem;
   font-weight: bold;
+  font-size: 1.1rem;
+  color: #2c3e50;
+  text-align: center;
 }
