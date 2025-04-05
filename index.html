@@ -7,18 +7,21 @@
 </head>
 <body>
 
-  <h2>Faradaic Efficiency Calculator</h2>
+  <div class="container">
+    <h2>Faradaic Efficiency Calculator</h2>
 
-  <label>Total Charge Passed (C):</label>
-  <input type="number" id="charge" placeholder="e.g. 4824">
+    <label>Total Charge Passed (C):</label>
+    <input type="number" id="charge" placeholder="e.g. 4824">
 
-  <label>Amount of NH₃ Formed (mol):</label>
-  <input type="number" id="ammonia" placeholder="e.g. 0.015">
+    <label>Amount of NH₃ Formed (mol):</label>
+    <input type="number" id="ammonia" placeholder="e.g. 0.015">
 
-  <button onclick="calculateFE()">Calculate Efficiency</button>
+    <button onclick="calculateFE()">Calculate Efficiency</button>
 
-  <div id="result"></div>
+    <div id="result"></div>
+  </div>
 
   <script src="script.js"></script>
 </body>
+
 </html>
